@@ -1,0 +1,488 @@
+@font-face {
+    font-family: "SegoeUI-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.animaapp.com/SegoeUI-Regular") format("truetype");
+}
+
+@font-face {
+    font-family: "SegoeUI-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://fonts.animaapp.com/SegoeUI-Bold") format("truetype");
+}
+
+@font-face {
+    font-family: "SegoeUI-Italic";
+    font-style: italic;
+    font-weight: 400;
+    src: url("https://fonts.animaapp.com/SegoeUI-Italic") format("truetype");
+}
+
+@font-face {
+    font-family: "Rockwell-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.animaapp.com/Rockwell-Regular") format("truetype");
+}
+
+@font-face {
+    font-family: "Rockwell-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://fonts.animaapp.com/Rockwell-Bold");
+}
+
+.login-page {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    min-height: 1071px;
+    padding: 19px 0;
+    width: 1920px;
+}
+
+* {
+    /* pointer-events: none; */
+    /* visibility: hidden; */
+    margin: 0;
+    padding: 0;
+}
+
+.flex-row {
+    align-items: flex-start;
+    display: flex;
+    height: 170px;
+    margin-left: 11.13px;
+    margin-top: 6px;
+    min-width: 1793px;
+}
+
+.flex-row a {
+    text-decoration: none;
+}
+
+.z-library-home {
+    background-color: var(--primary-text-color);
+    cursor: pointer;
+    display: flex;
+    height: 57px;
+    width: 255px;
+}
+
+.z-library-home-1 {
+    color:
+        #fffcfc;
+    flex: 1;
+    font-family: var(--font-family-segoeui-regular);
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-bottom: -1.5px;
+    margin-left: 19px;
+    margin-right: 20px;
+    margin-top: 13.5px;
+    text-align: center;
+    white-space: nowrap;
+    width: 216px;
+}
+
+.right-side-nav {
+    align-items: flex-end;
+    display: flex;
+    margin-left: 268px;
+    min-width: 370px;
+}
+
+.log-in-register {
+    align-items: flex-end;
+    display: flex;
+    height: 44px;
+    justify-content: space-between;
+    width: 275px;
+}
+
+.person-fill {
+    height: 32.36px;
+    margin-bottom: 2.6px;
+    margin-right: 0;
+    width: 32.36px;
+}
+
+.log-in {
+    color: var(--my-profile-color);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: 33px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 33px;
+    margin-bottom: -7.5px;
+    margin-top: 5.5px;
+    text-align: center;
+    text-decoration: underline;
+    white-space: nowrap;
+    width: 232px;
+}
+
+.icon-feather-search {
+    cursor: pointer;
+    height: 34px;
+    margin-bottom: 2.21px;
+    margin-left: 63px;
+    width: 34px;
+}
+
+.logo-and-discrpition {
+    align-items: center;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-left: 375px;
+    min-height: 126px;
+    width: 525px;
+}
+
+.zlibrary-logo {
+    height: 89px;
+    margin-left: 4px;
+    width: 351px;
+}
+
+.part-of-z-library-pr {
+    color: var(--eerie-black);
+    font-family: var(--font-family-segoeui-italic);
+    font-size: var(--font-size-xxl);
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin-top: 12px;
+    min-height: 30px;
+    min-width: 525px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.flex-col {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 73px;
+    min-height: 784px;
+    width: 1920px;
+}
+
+.email-and-password {
+    display: flex;
+    flex-direction: column;
+    height: 194px;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-top: 54px;
+    width: 862px;
+}
+
+.email-section {
+    display: flex;
+    flex: 1;
+    height: 58px;
+    margin-left: 37px;
+    max-height: 58px;
+}
+
+.e-mail {
+    height: 37px;
+    letter-spacing: 1.2px;
+    line-height: 50px;
+    margin-top: -7.9px;
+    white-space: nowrap;
+    width: 127px;
+}
+
+.rectangle-26 {
+    background-color: var(--white);
+    flex: 1;
+    margin-left: 9px;
+}
+
+.password-section {
+    align-items: flex-end;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-height: 99px;
+    min-height: 99px;
+}
+
+.forgot-password {
+    color: var(--color-used-in-z-logo);
+    font-family: var(--font-family-rockwell-regular);
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-bottom: -18px;
+    margin-top: 1px;
+    min-height: 32px;
+    min-width: 221px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.flex-row-2 {
+    align-items: flex-start;
+    display: flex;
+    margin-right: 2px;
+    min-width: 862px;
+}
+
+.overlap-group {
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    height: 58px;
+    justify-content: flex-end;
+    margin-left: 9px;
+    min-width: 689px;
+    padding: 14.3px 15.2px;
+}
+
+.eye {
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/625e3005d8727ea4c5811b5f/releases/625e3417d0120053840d7e61/img/eye@1x.png);
+    background-size: 100% 100%;
+    height: 24px;
+    width: 36px;
+}
+
+.password {
+    letter-spacing: 1.2px;
+    line-height: 50px;
+    margin-top: 4.5px;
+    min-height: 37px;
+    min-width: 164px;
+    white-space: nowrap;
+}
+
+.log-in-botton {
+    align-items: flex-start;
+    background-color: var(--my-profile-color);
+    border-radius: 43px;
+    display: flex;
+    height: 85px;
+    justify-content: flex-end;
+    margin-left: 143px;
+    margin-top: 58px;
+    min-width: 497px;
+    padding: 16.5px 187px;
+}
+
+.log-in-1 {
+    letter-spacing: 4px;
+    line-height: 50px;
+    min-height: 49px;
+    min-width: 122px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.greetings {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+    min-height: 157px;
+    width: 738px;
+}
+
+.flex-row-1 {
+    align-items: flex-start;
+    display: flex;
+    height: 37px;
+    margin-top: 21px;
+    min-width: 530px;
+}
+
+.why-campus-email-id {
+    letter-spacing: 1.2px;
+    line-height: 50px;
+    min-height: 37px;
+    min-width: 352px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.see-privacy {
+    cursor: pointer;
+    letter-spacing: 1.2px;
+    line-height: 50px;
+    margin-left: 4px;
+    min-height: 37px;
+    min-width: 174px;
+    text-align: center;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.use-your-campus-email-id-to-login {
+    letter-spacing: 1.2px;
+    line-height: 50px;
+    margin-bottom: -13px;
+    margin-top: 9px;
+    min-height: 37px;
+    min-width: 548px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.title {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-rockwell-regular);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    line-height: 50px;
+    margin-bottom: -1px;
+    margin-top: -2px;
+    min-height: 49px;
+    min-width: 738px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.new-user-container {
+    height: 37px;
+    margin-left: 147px;
+    margin-top: 60px;
+    position: relative;
+    width: 455px;
+}
+
+.new-user-1 {
+    color: var(--color-used-in-z-logo);
+    cursor: pointer;
+    font-family: var(--font-family-rockwell);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    left: 226px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.span0-1 {
+    font-family: var(--font-family-rockwell-regular);
+    letter-spacing: 4px;
+}
+
+.new-user {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-rockwell);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 3px;
+    line-height: 50px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+}
+
+.span0 {
+    letter-spacing: 4px;
+}
+
+.span1 {
+    color: var(--white);
+    font-family: var(--font-family-rockwell-regular);
+    font-size: var(--font-size-xxxl);
+}
+
+.footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 87px;
+    min-height: 52px;
+    width: 1920px;
+}
+
+.line-2 {
+    height: 1px;
+    width: 1920px;
+}
+
+.flex-row-3 {
+    align-items: flex-start;
+    display: flex;
+    height: 50px;
+    margin-left: 22px;
+    min-width: 1851px;
+}
+
+.copyright-whatever {
+    letter-spacing: 0;
+    line-height: 50px;
+    min-height: 23px;
+    min-width: 168px;
+    white-space: nowrap;
+}
+
+.linkedin {
+    align-self: flex-end;
+    height: 36px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    width: 36px;
+}
+
+.facebook-square {
+    align-self: flex-end;
+    height: 36px;
+    margin-left: 10px;
+    width: 36px;
+}
+
+.terms-policy-and-privacy {
+    cursor: pointer;
+    letter-spacing: 0;
+    line-height: 50px;
+    margin-left: 60px;
+    margin-top: 5px;
+    min-height: 29px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.instagram {
+    align-self: flex-end;
+    height: 36px;
+    margin-bottom: 0;
+    margin-left: 23px;
+    width: 36px;
+}
+
+.contact-us {
+    letter-spacing: 0;
+    line-height: 50px;
+    margin-left: 1003px;
+    margin-top: 4px;
+    min-height: 23px;
+    min-width: 93px;
+    white-space: nowrap;
+}
+
+.about-us {
+    letter-spacing: 0;
+    line-height: 50px;
+    margin-left: 62px;
+    margin-top: 5px;
+    min-height: 29px;
+    min-width: 84px;
+    text-decoration: underline;
+    white-space: nowrap;
+}

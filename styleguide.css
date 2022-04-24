@@ -1,0 +1,718 @@
+:root {
+    --black:
+        rgba(0, 0, 0, 1);
+    --cod-gray:
+        rgba(10, 8, 8, 1);
+    --eerie-black:
+        rgba(28, 26, 26, 0.569);
+    --eerie-black-3:
+        rgba(29, 24, 24, 1);
+    --eerie-black2:
+        rgba(29, 31, 34, 1);
+    --chateau-green:
+        rgba(47, 177, 77, 0.659);
+    --my-profile-color:
+        rgba(47, 177, 77, 0.941);
+    --primary-text-color:
+        rgba(73, 67, 67, 1);
+    --color-used-in-z-logo:
+        rgba(74, 175, 208, 1);
+    --dove-gray:
+        rgba(112, 112, 112, 1);
+    --secondary-text-color:
+        rgba(133, 127, 127, 1);
+    --natural-gray:
+        rgba(141, 134, 134, 0.149);
+    --bazaar:
+        rgba(157, 123, 123, 1);
+    --dusty-gray:
+        rgba(160, 151, 151, 0.102);
+    --geyser:
+        rgba(216, 220, 224, 1);
+    --alizarin-crimson:
+        rgba(228, 44, 56, 0.941);
+    --gallery:
+        rgba(238, 237, 237, 1);
+    --orange-red:
+        rgba(239, 26, 26, 1);
+    --salmon-pearl:
+        rgba(239, 76, 87, 0.702);
+    --romance:
+        rgba(255, 252, 252, 1);
+    --white-2:
+        rgba(255, 255, 255, 0.322);
+    --white:
+        rgba(255, 255, 255, 1);
+
+    --font-size-xl: 20px;
+    --font-size-xxl: 14px;
+    --font-size-xxl: 21px;
+    --font-size-xxxl: 30px;
+    --font-size-xxxxl: 37px;
+    --font-size-xxxxxl: 27px;
+    --font-size-l3: 11px;
+    --font-size-s2: 13px;
+    --font-size-m2: 15px;
+    --font-size-l2: 16px;
+    --font-size-m3: 8px;
+
+    --font-family-rockwell: "Rockwell";
+    --font-family-rockwell-bold: "Rockwell-Bold";
+    --font-family-rockwell-regular: "Rockwell-Regular";
+    --font-family-segoe_ui: "Segoe UI";
+    --font-family-segoeui-bold: "SegoeUI-Bold";
+    --font-family-segoeui-italic: "SegoeUI-Italic";
+    --font-family-segoeui-regular: "SegoeUI-Regular";
+}
+
+
+
+.segoeui-regular-normal-shakespeare-11px {
+    color: var(--color-used-in-z-logo);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-l3);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rockwell-regular-normal-shakespeare-30px {
+    color: var(--color-used-in-z-logo);
+    font-family: var(--font-family-rockwell-regular);
+    font-size: var(--font-size-xxxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-shakespeare-26px {
+    color: var(--color-used-in-z-logo);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: 26px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-shakespeare-20px {
+    color: var(--color-used-in-z-logo);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-bold-tundora-17px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-italic-normal-eerie-black-11px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-segoeui-italic);
+    font-size: var(--font-size-l3);
+    font-weight: 400;
+    font-style: italic;
+}
+
+.segoeui-normal-shakespeare-17px {
+    color: var(--color-used-in-z-logo);
+    font-family: var(--font-family-segoe_ui);
+    font-size: 17px;
+}
+
+.segoeui-bold-chateau-green-8px {
+    color: var(--my-profile-color);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: var(--font-size-m3);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-bold-gray-14px {
+    color: var(--secondary-text-color);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.border-3px-dove-gray {
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--dove-gray);
+}
+
+.rockwell-regular-normal-tundora-30px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-rockwell-regular);
+    font-size: var(--font-size-xxxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-tundora-26px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: 26px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-shakespeare-16px {
+    color: var(--color-used-in-z-logo);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-l2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-bold-tundora-14px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-tundora-10px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-tundora-13px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-s2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.border-1px-dove-gray {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--dove-gray);
+}
+
+.segoeui-regular-normal-white-11px {
+    color: var(--white);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-l3);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rockwell-regular-normal-white-30px {
+    color: var(--white);
+    font-family: var(--font-family-rockwell-regular);
+    font-size: var(--font-size-xxxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-bold-chateau-green-14px {
+    color: var(--my-profile-color);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-gray-17px {
+    color: var(--secondary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-bold-alizarin-crimson-13px {
+    color: var(--alizarin-crimson);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: var(--font-size-s2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-bold-chateau-green-20px {
+    color: var(--my-profile-color);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.rockwell-bold-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-rockwell-bold);
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.rockwell-regular-normal-black-15px {
+    color: var(--black);
+    font-family: var(--font-family-rockwell-regular);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rockwell-regular-normal-tundora-40px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-rockwell-regular);
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-gray-37px {
+    color: var(--secondary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: 37px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rockwell-bold-tundora-16px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-rockwell-bold);
+    font-size: var(--font-size-l2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.rockwell-regular-normal-black-30px {
+    color: var(--black);
+    font-family: var(--font-family-rockwell-regular);
+    font-size: var(--font-size-xxxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-tundora-40px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-black-15px {
+    color: var(--black);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-normal-shakespeare-16px {
+    color: var(--color-used-in-z-logo);
+    font-family: var(--font-family-segoe_ui);
+    font-size: var(--font-size-l2);
+}
+
+.segoeui-regular-normal-tundora-27px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: 27px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rockwell-bold-tundora-17px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-rockwell-bold);
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-eerie-black-13px {
+    color: var(--eerie-black2);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-s2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rockwell-regular-normal-white-40px {
+    color: var(--white);
+    font-family: var(--font-family-rockwell-regular);
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rockwell-bold-tundora-35px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-rockwell-bold);
+    font-size: 35px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-tundora-15px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rockwell-bold-tundora-20px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-rockwell-bold);
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.rockwell-regular-normal-gray-30px {
+    color: var(--secondary-text-color);
+    font-family: var(--font-family-rockwell-regular);
+    font-size: var(--font-size-xxxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-romance-32px {
+    color: var(--romance);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-italic-normal-eerie-black-21px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-segoeui-italic);
+    font-size: 21px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.segoeui-bold-tundora-16px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: var(--font-size-l2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-bold-black-17px {
+    color: var(--black);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-gray-13px {
+    color: var(--secondary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-s2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-italic-normal-eerie-black-13px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-segoeui-italic);
+    font-size: var(--font-size-s2);
+    font-weight: 400;
+    font-style: italic;
+}
+
+.segoeui-bold-eerie-black-15px {
+    color: var(--eerie-black2);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: var(--font-size-m2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-shakespeare-17px {
+    color: var(--color-used-in-z-logo);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-bold-eerie-black-9px {
+    color: var(--eerie-black2);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: 9px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-tundora-8px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-m3);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rockwell-bold-tundora-18px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-rockwell-bold);
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-gray-8px {
+    color: var(--secondary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-m3);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-bazaar-30px {
+    color: var(--bazaar);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-xxxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rockwell-bold-tundora-40px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-rockwell-bold);
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-bold-chateau-green-33px {
+    color: var(--my-profile-color);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: 33px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-bold-gray-19px {
+    color: var(--secondary-text-color);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: 19px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-gray-40px {
+    color: var(--secondary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-bold-orange-red-33px {
+    color: var(--orange-red);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: 33px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-bold-tundora-27px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: 27px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-bold-tundora-15px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: var(--font-size-m2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.rockwell-regular-normal-tundora-15px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-rockwell-regular);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-gray-16px {
+    color: var(--secondary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-l2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-tundora-30px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-xxxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-gray-15px {
+    color: var(--secondary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-bold-chateau-green-13px {
+    color: var(--my-profile-color);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: var(--font-size-s2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-cod-gray-35px {
+    color: var(--cod-gray);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rockwell-bold-tundora-46px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-rockwell-bold);
+    font-size: 46px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-eerie-black-15px {
+    color: var(--eerie-black2);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rockwell-bold-shakespeare-27px {
+    color: var(--color-used-in-z-logo);
+    font-family: var(--font-family-rockwell-bold);
+    font-size: 27px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-bold-shakespeare-15px {
+    color: var(--color-used-in-z-logo);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: var(--font-size-m2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.rockwell-bold-tundora-33px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-rockwell-bold);
+    font-size: 33px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-gray-30px {
+    color: var(--secondary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-xxxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-normal-shakespeare-26px {
+    color: var(--color-used-in-z-logo);
+    font-family: var(--font-family-segoe_ui);
+    font-size: 26px;
+}
+
+.segoeui-regular-normal-eerie-black-37px {
+    color: var(--eerie-black-3);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: 37px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-normal-gray-13px {
+    color: var(--secondary-text-color);
+    font-family: var(--font-family-segoe_ui);
+    font-size: var(--font-size-s2);
+}
+
+.rockwell-bold-shakespeare-14px {
+    color: var(--color-used-in-z-logo);
+    font-family: var(--font-family-rockwell-bold);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-gray-11px {
+    color: var(--secondary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-l3);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-bold-black-35px {
+    color: var(--black);
+    font-family: var(--font-family-segoeui-bold);
+    font-size: 35px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-gray-10px {
+    color: var(--secondary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-tundora-16px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-l2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-regular-normal-tundora-14px {
+    color: var(--primary-text-color);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.segoeui-normal-gray-8px {
+    color: var(--secondary-text-color);
+    font-family: var(--font-family-segoe_ui);
+    font-size: var(--font-size-m3);
+}
+
+.segoeui-regular-normal-black-30px {
+    color: var(--black);
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-xxxl);
+    font-weight: 400;
+    font-style: normal;
+}

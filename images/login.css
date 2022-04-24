@@ -1,0 +1,10 @@
+.z-library-home {
+    --primary-text-color: rgba(73, 67, 67, 1);
+    background-color: var(--primary-text-color);
+    color: #fffcfc;
+    flex: 1;
+    cursor: pointer;
+    display: flex;
+    height: 57px;
+    width: 255px;
+}
