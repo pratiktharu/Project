@@ -72,8 +72,7 @@
 }
 
 .z-library-home-1 {
-    color:
-        #fffcfc;
+    color:#fffcfc;
     flex: 1;
     font-family: var(--font-family-segoeui-regular);
     font-size: 32px;
@@ -96,7 +95,7 @@
     min-width: 370px;
 }
 
-.log-in-register {
+.log-in-register{
     align-items: flex-end;
     display: flex;
     height: 44px;
@@ -104,7 +103,7 @@
     width: 275px;
 }
 
-.person-fill {
+.person-fill{
     height: 32.36px;
     margin-bottom: 2.6px;
     margin-right: 0;
